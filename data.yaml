@@ -1,0 +1,178 @@
+education:
+  - name: University of Central Florida
+    classes:
+      - name: System Software
+        tags:
+          - Assembly
+          - Compilers
+          - Context-Switching
+          - Fetch-Execute-Interrupt Cycle
+
+      - name: Database Systems
+        tags:
+          - SQL
+          - Functional Dependencies
+          - “CRUD” Workﬂow
+
+      - name: Computer Logic & Organization
+        tags:
+          - Assembly
+          - Computer Arithmetic
+          - Board Design
+
+      - name: Matrix & Linear Algebra
+        tags:
+          - SVD
+          - GPU Arithmetic
+          - Parallelism
+
+    degreess:
+      - level: B.S.
+        field: Computer Science
+        completion_date:
+          year: 2025
+          month: 5
+
+projects:
+  - name: College Event Website
+    repo: github.com/thatpix3l/college_event_website
+    description: All-in-one web app frontend and REST-ful backend for viewing and creating college events; utilizes Postgres for persistent storage and JWT's for authentication.
+    tags: []
+    commit:
+      date:
+        begin:
+          year: 2024
+          month: 4
+        end:
+          year: 2024
+          month: 4
+  - name: FnTwo (Backend)
+    repo: github.com/thatpix3l/fntwo-api
+    description: Backend API server for processing 3D avatars, colloquially known as “VTuber” models; acts as the middle-man for tracking a user's face and accepting CRUD-like responses from clients.
+    tags: []
+    commit:
+      date:
+        begin:
+          year: 2022
+          month: 9
+        end:
+          year: 2024
+          month: 7
+  - name: FnTwo (frontend)
+    repo: github.com/thatpix3l/fntwo-frontend
+    description: Frontend web app for viewing 3D avatars inside of live-streaming software; contains a control panel for manipulating the state of the backend and linking a plain camera.
+    tags: []
+    commit:
+      date:
+        begin:
+          year: 2022
+          end: 5
+        end:
+          year: 2024
+          end: 7
+  - name: Stopcon
+    repo: github.com/thatpix3l/stopcon
+    description: CLI tool for renaming and merging GoPro video clips that are split into separate chunks by utilizing FFMPEG.
+    tags: []
+    commit:
+      date:
+        begin:
+          year: 2024
+          month: 2
+        end:
+          year: 2024
+          month: 5
+  - name: Persephone
+    repo: github.com/thatpix3l/persephone
+    description: Go library for parsing GoPro's BLE API; intended for any project that has a need for easily converting raw packets into usable structures.
+    tags: []
+    commit:
+      date:
+        begin:
+          year: 2022
+          month: 10
+        end:
+          year: 2022
+          month: 10
+  - name: Cool Head (Firmware)
+    repo: github.com/thatpix3l/coolhead
+    description: RP2040 firmware for wirelessly controlling one model of HISENSE's AC units.
+    tags:
+      - Rust
+      - Async
+    commit:
+      date:
+        begin:
+          year: 2025
+          month: 7
+        end:
+          year: current
+          month: current
+  - name: Invoy
+    repo: github.com/thatpix3l/invoy
+    description: Cross-platform desktop app to combine a truck freight's associated paperwork and custom summary page into a single PDF file.
+    tags:
+      - Flutter
+      - Dart
+      - Rust
+    commit:
+      date:
+        begin:
+          year: 2025
+          month: 4
+        end:
+          year: 2025
+          month: 5
+          
+work_experience:
+  - company: Tradeport Logistics LLC
+    position: Sofware Engineer
+    notable_works:
+      - summary: Developed and maintain an invoice creation program for freight invoices, decreasing time spent creating a given invoice from 4 minutes down to 30 seconds.
+      - summary: Developed and maintain an automated email agent that generates a summary of all freight destinations based on attached invoices and sends to appropriate recipients, decreasing time spent creating the email by hand from 3 minutes down to 20 seconds.
+      - summary: Developed and maintain an invoice archiving and retrieval web app service for faster archiving and retrieval of past invoices, decreasing time spent retrieving and archiving from 2 minutes to 30 seconds.
+    date:
+      begin:
+        year: 2020
+        month: 1
+        day: 1
+      end: current
+
+languages:
+  - Go
+  - Rust
+  - C
+  - SQL
+  - JavaScript
+  - TypeScript
+  - Java
+
+contact:
+  phone: (407) 984-4907
+  email: career@mralonso.com
+  github: thatpix3l
+  linkedin: jonathan-alonso-926591248
+
+name:
+  given: Jonathan
+  family: Alonso
+
+career_title: Software Engineer
+
+palette:
+  left_column: "#f7f7f7"
+  accent: "#003f8c"
+  dark: "#000000"
+  light: "#ffffff"
+  shade_1: "#333333"
+
+skills:
+  - TypeScript/JavaScript
+  - NodeJS
+  - Dart/Flutter
+  - Unix
+  - Svelte
+  - React
+  - Rust
+  - SQL (MariaDB, PostgreSQL)
+  - Go
