@@ -128,12 +128,12 @@ work_experience:
   - company: Tradeport Logistics LLC
     position: Sofware Engineer
     notable_works:
-      - summary: Developed and maintain an invoice creation program for freight invoices, decreasing time spent creating a given invoice from 4 minutes down to 30 seconds.
-      - summary: Developed and maintain an automated email agent that generates a summary of all freight destinations based on attached invoices and sends to appropriate recipients, decreasing time spent creating the email by hand from 3 minutes down to 20 seconds.
-      - summary: Developed and maintain an invoice archiving and retrieval web app service for faster archiving and retrieval of past invoices, decreasing time spent retrieving and archiving from 2 minutes to 30 seconds.
+      - summary: Spearheaded the development and maintenance of invoice creation software for semi-truck freights, decreasing time spent creating a given invoice from 4 minutes down to 25 seconds on average.
+      - summary: Developed an AI-assisted e-mail agent; generates a skeletal invoice summary based off of a freight's bill-of-lading, decreasing time spent creating e-mails from 6 minutes down to 43 seconds on average.
+      - summary: Also developed an invoice archiving and retrieval web app service for faster archiving and retrieval of past invoices, decreasing time spent manually retrieving and archiving from 5 minutes to 15 seconds on average.
     date:
       begin:
-        year: 2020
+        year: 2024
         month: 1
         day: 1
       end: current
@@ -167,12 +167,14 @@ palette:
   shade_1: "#333333"
 
 skills:
-  - TypeScript/JavaScript
+  - TypeScript
+  - JavaScript
   - NodeJS
-  - Dart/Flutter
-  - Unix
-  - Svelte
+  - BunJS
+  - Dart
+  - Flutter
+  - Linux
   - React
   - Rust
-  - SQL (MariaDB, PostgreSQL)
+  - PostgreSQL
   - Go

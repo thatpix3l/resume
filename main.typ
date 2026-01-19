@@ -23,7 +23,7 @@
   #set box(height: 11pt)
   #set text(size: 11pt)
 
-  == #institution.name
+  _ #institution.name _
 
   #for degree in institution.degreess [
 
